@@ -1,0 +1,24 @@
+The matlab code for DECO package and the entire experiment setup.
+
+Usage:
+
+1. Place the entire folder under some <PATH>
+2. Open Matlab and add the absolute path to pwd, i.e,
+
+>>> addpath(genpath('<PATH>/matlab_code'));
+
+3. Start using the package.
+
+Package main functions:
+
+DECO.m 
+The basic function for DECOrrelated regularized regression (DECO + lasso, scad and mcp). The parallelization is built upon matlab's PARFOR function. For details refer to 'help DECO'.
+
+experiment.m 
+The integrated function for testing the performance of DECO, which includes generating synthetic datasets over 6 different correlated structure with light or heavy-tailed noise. Details please refer to 'help experiment'.
+
+data_gen.m / data_gen_heavytail.m
+The function to generated synthatic data with different correlation structure. See 'help data_gen'.
+
+Author: Xiangyu Wang
+email: wwrechard@gmail.com
