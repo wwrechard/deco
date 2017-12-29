@@ -1,6 +1,6 @@
 # DECO
 This repository holds the code for decorrelated distributed sparse regression. 
-Contact: [Xiangyu (Samuel) Wang](https://github.com/wwrechard) and [Chenlei Leng](https://github.com/chenleileng).
+Contact: [Xiangyu Wang](https://github.com/wwrechard) and [Chenlei Leng](https://github.com/chenleileng).
 Lasso paper: [DECOrrelated feature space partitioning for distributed sparse regression](https://papers.nips.cc/paper/6349-decorrelated-feature-space-partitioning-for-distributed-sparse-regression)
 
 ## Description
